@@ -3,15 +3,15 @@
     
     <h1 class="display-1">Movie</h1>
 
-    <ul class="nav d-flex justify-content-center display-4">
+    <ul class="nav nav-pills d-flex justify-content-center display-4 pt-5">
       <li class="nav-item">
-        <a class="nav-link active" href="{{route('home')}}">Home</a>
+        <a class="nav-link {{(Route::currentRouteName() === 'home') ? 'active' : ''}}" href="{{route('home')}}">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{route('about')}}">About</a>
+        <a class="nav-link {{(Route::currentRouteName() === 'about') ? 'active' : ''}}" href="{{route('about')}}">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{route('contact')}}">Contact</a>
+        <a class="nav-link {{(Route:: currentRouteName() === 'contact') ? 'active' : ''}}" href="{{route('contact')}}">Contact</a>
       </li>
     </ul>
 
