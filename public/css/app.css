@@ -10019,3 +10019,38 @@ h3 {
     border-color: #dee2e6;
   }
 }
+header {
+  background-color: black;
+  height: 80px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  color: #3490dc;
+  font-weight: bold;
+}
+
+main {
+  background-color: #363636;
+}
+
+main h1 {
+  color: #3490dc;
+}
+
+main .table tbody, main .table thead {
+  border-top: 3px solid #3490dc;
+  color: white;
+}
+
+main .table {
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: white;
+}
